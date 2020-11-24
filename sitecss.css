@@ -1,0 +1,449 @@
+body{
+    font-size: 15px;
+    font-family:  Arial, Helvetica, sans-serif; 
+    line-height: 1,5em;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header{
+    background-color: #322c55;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 60px;
+    border-bottom: #bb4a4a 3px solid;
+}
+header a{
+    color: whitesmoke;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+}
+header ul{
+    margin: 0;
+    padding: 0;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #branding{
+    float: left;
+}
+header #branding h1{ 
+    margin: 0;
+}
+header nav{
+    float: right ; 
+    margin-top: 7px;
+}
+header .highlight, header .current a{
+    color: rgba(255, 108, 41, 0.842);
+    font-weight: bold;
+}
+header a:hover{
+    color: #03c0c0c2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.current a:hover{
+    color: rgba(255, 108, 41, 0.842);
+}
+small{
+    font-size: small;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*----- home page-----*/
+
+
+
+
+
+
+
+
+
+
+
+
+.sitebody{
+    background-color: #322c58;
+}
+#showclass h1{
+    font-size: 60px;
+    margin-top: 80px;
+    margin-bottom: 7px;  
+}
+#showclass p{
+    font-size: 12px;
+    font-family: helvetica;
+}
+#showclass{
+    text-align: center;
+    min-height: 600px ;
+    background-image: url(https://mdelamata.files.wordpress.com/2013/12/work_banner.jpg) ;
+    color:#ffff;
+    background-position-y:100%;
+    background-size: 100% ;
+}
+#newsletter{
+    padding:15PX;
+    background-color: #332c53;
+    color: whitesmoke;
+    max-height: 50px   ;
+}
+#newsletter h1{
+    float: left ;
+    margin-top: 15px;
+}
+form a{
+    color: white;
+    text-decoration: none;
+    background-color: #332c53;
+    float: right;
+}
+button{
+    background-color: #332c53;
+    font-size: 43px;
+    float: right;
+    padding: none;
+    border: none;
+}
+button:hover{
+    font-weight: bold;
+    padding: none;
+    border: none;
+    border-color: rgba(255, 108, 41, 0.842);
+}
+a :hover{
+    padding: none;
+    border: none;      
+    color:  rgba(255, 108, 41, 0.842);
+    float: right;
+}
+#reasons{
+    border: rgba(255, 108, 41, 0.842) 100%;
+    padding:  rgba(255, 108, 41, 0.842) 100%;
+    background:rgb(168, 159, 28);
+    float: left;
+    color: black;
+    min-width: 100%;
+}
+#boxes{
+    margin-top: 10px;
+    clear: both;
+}
+#box{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    border: solid  #332c53 6px;
+    border-radius: 15px;
+    margin-top: 10px;
+    color: whitesmoke;
+    min-height: 150px ;
+}
+.box1{
+    background-image: url(https://prod.wp.cdn.aws.wfu.edu/sites/200/2018/10/Unhappy-Work.jpg);
+    background-position-y: 84%;
+}
+.box2{
+    background-image: url(https://previews.123rf.com/images/mamanamsai/mamanamsai1509/mamanamsai150900659/46229159-quality-coding-concept-design-on-dark-background-clean-vector.jpg);
+    background-position-y: 50%;
+    background-position-x: 50%;
+}
+.box3{
+    background-image: url(https://mcadvocate.com/wp-content/uploads/2016/09/IMG_3165-900x529.jpg);
+    background-position-x: inherit;
+    background-position-y: 50%;
+    background-size: 50% no-repeat;
+}
+footer{
+    background-color: rgb(175, 13, 13);
+    min-height: 30px;
+    min-width: 100%;
+    text-align: center;
+}
+#copywrite{
+    float: center middle;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 6px; 
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----services page----*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#services-body{
+    background-image: url(https://wallpaperset.com/w/full/5/d/a/390163.jpg);
+}
+#c-services{
+    padding: 10px 0 10px 0;
+    margin-top:50px ;
+    font-size: 50px;
+    text-decoration:underline;
+    text-decoration-color: rgb(184, 184, 184)  ;
+    
+}
+.services-ul p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1,8em;
+    font-size: 20px;
+    margin-left: 50px;
+    float: right;
+}
+.services-ul h3{
+    font-size:30px;
+    text-decoration: underline;
+    text-decoration-color: rgba( 184, 184, 184);
+
+}
+.footer-services{
+    text-align: middle;
+    float:middle;
+    margin-top: 10%;
+    min-width: 100%;
+}
+#copywrite-services{
+    color: whitesmoke;
+}
+#servicespan-1{
+    color:rgba(255, 108, 41, 0.842);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#servicespan-2{
+    color: #f0034f;
+}
+#span-3{
+    color: whitesmoke;
+}
+.secondary-a{
+    text-decoration: none;
+    color: black;
+    float: right;
+    margin-bottom: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    
+}
+.secondary-a:hover{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----about page----*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#about-body{
+    background-image:url(https://i.pinimg.com/originals/55/10/9f/55109f755ffeb75329026e0943a8ed4d.jpg);
+    color: whitesmoke;
+}
+#h3about{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 22px;
+    margin-bottom: 11px;
+    text-decoration: underline;
+    text-decoration-color: rgb(184, 184, 184);
+
+
+}
+#pabout{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    line-height: 1.4em;
+
+}
+#footer-about{
+    float: bottom;
+    margin-top: 29%;
+    min-width: 100%;
+
+}
+#copywrite-about{
+    color: whitesmoke;
+
+}
+#CATS{
+    color:red;
+
+}
+#color-name{
+    color:rgba(255, 108, 41, 0.842);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----registery----*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form-reg{
+    padding:20px;
+    font-family: Arial, Helvetica, sans-serif Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+#registry-body{
+    background-image: url(https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/rZJIMvhmliwmde8a6/videoblocks-smiling-people-working-together-in-office-team-of-programmers-working-in-a-team-huge-windows-background_h7lyrt7hlz_thumbnail-1080_01.png);
+    border-image-repeat: no-repeat;
+}
+.form-reg .form-reg-group{
+    padding-bottom:15px;
+    border-top: 10px;
+
+}
+.form-reg-group input, .form-reg-group textarea{
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    font-size: 20px;
+    border: solid 6px #332c56;
+}
+.form-reg label{
+	display: block;
+}
+.form-reg input, .form-reg textarea .form-reg input{
+	padding: 15px;
+    width:100%;
+    background: transparent;
+}
+select{
+    min-width: 50%;
+    min-height: 50px;
+    font-size: 20PX;
+    border-top: 100px;
+}
+.button-reg{
+    border-top: 100px;
+    border-left: 50%;
+    font-size: 43px;
+}
+#reg-button{
+    min-width: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    background-color: transparent;
+    border: none;
+    padding: none;
+    cursor: pointer;
+}
+#footer-reg{
+    float: middle;
+    margin-top: 12.5% ;
+    min-width: 100%;
+}
+#copywrite-reg{
+    color: whitesmoke;
+}
+input{
+    font-size: large;
+}
+#serviceselect{
+    display: none;
+}
